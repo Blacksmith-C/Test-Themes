@@ -1,0 +1,99 @@
+//META{"name":"Blacksmith","description":"For privileged users.","author":"Bennett Harnisch","version":"0.1"}*//
+
+/*  ~Currently under development.~
+*/
+
+
+	*{
+		font-family: 'courier new' !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/* friends icon */
+	
+	.friends-icon{
+		background-image: url('https://i.imgur.com/5kml5ox.png') !important;
+		background-size: cover !important;
+	}
+
+	
+	/*scrollbars*/
+	
+	::-webkit-scrollbar{
+		background: #47453 !important;
+	}
+
+	
+	/*online, offline, text channel & voice channel header*/
+	
+	.guild-channels header, .channel-members h2{
+		background: #141413 !important;
+		color: #FFB233 !important;
+		opacity: 1 !important;
+	}
+
+	
+	/*misc*/
+	
+	#friends, .message-group, .timestamp, .typing, .divider.divider-red>span, .divider:not(.red) span, .member:hover, .invite-button, .Select-placeholder, .authed-app{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/*buttons*/
+	
+	.btn.btn-settings, .btn.btn-deafen, .btn-btn-mute, .btn.btn-mute:disabled, .btn.btn-mute:enabled, #bd-pub-button, .guilds-add, .popout-menu-item, li.selected, li.draggable, .channel:hover, .tab-bar-item, .premium-header button, .btn.btn-ghost, .btn-item, .option, .button.button-primary, .Select-value, .btn.btn-danger, .btn{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/* scroll layouts */
+	
+	.scroller.messages, .scroller.channel-members, .scroller.guild-channels, .scroller.guilds, .scroller, .scroller-wrap{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/* misc headers & footers */
+	
+	.friends-header, .friends-table, .account, .search-bar, .private-channels, .channel.selected a, .title-wrap, .guild-header header, div.header, .premium-header.splash, .webhooks-header{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/* dialog headers & footers*/
+	
+	.settings-actions, .guild-settings-modal-integrations-header, .roles, .guild-settings-modal-emoji, .form-header, .form-inner, .form-actions{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/*fillers*/
+	
+	.flex-horizontal>.flex-spacer, .flex-vertical, .settings-wrapper.settings-panel, .settings-wrapper, .instant-invites, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations, .guild-settings-modal-members, .tab-bar.SIDE, .emoji-picker, .friends-row:hover, .results-group, .webhook-header, .markdown-modal, .markdown-modal-footer{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/*inputs*/
+	
+	#bd-input, input, .input, textarea, .channel-textarea, #settings-username, #settings-email, #settings-current-password, .settings input{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
+	
+	/*text improvement*/
+	
+	.topic, .guild-settings-modal-integrations-body.settings-panel-with-header.no-integrations p, .guild-settings-modal-emoji-header p, .member-username, p, .p, #bd-p{
+		background: #141413 !important;
+		color: #FFB233 !important;
+	}
+
